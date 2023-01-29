@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: rgb(28, 116, 119);
+    color: white;
+    height: 40px;
+}
+
+.divm{
+    background-color: cornflowerblue;
+    height: 650px;
+    width: 650px;   
+}
+
+div.responsiva{
+    
+    position: relative;
+    background-color: deeppink;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
+
+div.absoluta{
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    top: 0px;
+    right: 1px;
+}
