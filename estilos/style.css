@@ -25,7 +25,7 @@ body{
 }
 
 #telas{
-    background: url(/images/illustration-mockups.svg) no-repeat;
+    background: url(../images/illustration-mockups.svg) no-repeat;
     background-size: contain;
     width: 340px;
     height: 250px;
