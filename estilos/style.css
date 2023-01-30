@@ -11,7 +11,7 @@
 body{
     margin: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: hsl(257, 40%, 49%) url('/images/bg-mobile.svg') no-repeat;
+    background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat;
 }
 
 #logo{
@@ -65,6 +65,10 @@ div#textos > p#register > a{
     border-radius: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.281);
 }
+div#textos > p#register > a:hover {
+    background-color: hsl(300, 89%, 65%);
+    color: white;
+}
 
 .redes-sociais{
     display: flex;
@@ -78,18 +82,24 @@ ion-icon {
     padding: 5px;
     border: 1px solid white;
     border-radius: 50%;
-    font-size: 24px;
-  
+    font-size: 24px;  
+}
+
+section ion-icon:hover{
+    color: hsl(300, 89%, 65%);
+    border: 1px solid hsl(300, 89%, 65%);;
 }
 
 footer > p{
-    background: transparent;
-    width: 100%;
-    height: 30px;
-    position: fixed;
+    background: rgb(34, 34, 34);  
+    margin: -20px;
+    position: relative;
     bottom: 0;
     left: 0;
+    color: white; 
+    text-decoration: none;
+    font-size: 0.67em;
+    text-align: center;
 }
-
 
 
