@@ -31,7 +31,7 @@
     }
 
     body{
-        margin: 20px;
+        margin: 40px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
     }
@@ -40,12 +40,11 @@
         display: none;
     }
 
-
 }
 
 @media screen and (min-width: 1099px) {
     body{
-        margin: 20px;
+        margin: 40px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
     }
@@ -58,10 +57,38 @@
         margin: 0px 0px 20px -5px;
     }
 
-
+    div.principal{
+        position: relative;
+        height: 70vh;
+    }
 
     #telas{
-        
+        position: absolute;
+        max-width: 49vw;
+        width: 100%;
     }
     
+    #textos{
+        position: absolute;
+        top: 8%;
+        left: 55%;
+        height: 47%;
+    }
+
+    .redes-sociais{   
+        padding: 5px;
+        justify-content: flex-end;
+    }
+
+    div#textos >h1{
+        width: 80%;
+        text-align: start;
+        font-size: 2.46em;
+        line-height: 50px;
+    }
+
+    div#textos > p{
+        text-align: justify;
+    }
+
 }

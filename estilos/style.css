@@ -43,7 +43,7 @@ div#textos > h1{
     font-size: 1.50em;
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.281);;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);;
 }
 
 div#textos > p{
@@ -52,7 +52,7 @@ div#textos > p{
     font-weight: 400;
     text-align: center;
     margin-bottom: 18px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.281);;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);;
 }
 
 div#textos > p#register > a{
@@ -63,7 +63,7 @@ div#textos > p#register > a{
     color: hsl(257, 40%, 49%);
     text-align: center;
     border-radius: 30px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.281);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
 }
 div#textos > p#register > a:hover {
     background-color: hsl(300, 89%, 65%);
@@ -73,8 +73,8 @@ div#textos > p#register > a:hover {
 .redes-sociais{
     display: flex;
     justify-content: center;
-    margin: 10px;
-    margin-bottom: 30px;
+    margin: 5px;
+    
 }
 
 ion-icon {
