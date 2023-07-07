@@ -8,7 +8,7 @@
 
 
 # **Sobre o Projeto**
-Minha primeira <strong>Landing Page</strong>, disponibilizado por [FrontEnd Mentor](https://www.frontendmentor.io/home) feito reponsivo, utilizando position e variações do background no CSS.
+Minha primeira <strong>Landing Page</strong>, disponibilizado por [FrontEnd Mentor](https://www.frontendmentor.io/home) feito responsivo, utilizando position e variações do background no CSS.
 <br><br> 
   
 
@@ -29,7 +29,7 @@ Minha primeira <strong>Landing Page</strong>, disponibilizado por [FrontEnd Ment
 LinkedIn</a><br><br>
 
 # **Disponível**
-Clique <a href="https://pedrohenriquealvesfernandes.github.io/landing-page/" style="color: cyan"><strong>AQUI</strong></a> para acessar a projeto em funcionamento.
+Clique <a href="https://pedrohenriquealvesfernandes.github.io/landing-page/" style="color: cyan"><strong>AQUI</strong></a> para acessar a projeto em funcionamento (resolução a ser exibida 1366px (desktop) e 375px (celular) ).
 
 
 
